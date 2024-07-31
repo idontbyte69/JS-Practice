@@ -119,3 +119,8 @@
 // var num = Number(prompt("Enter a number: "));
 
 // num>0 ? document.write("Positive") : num<0 ?  document.write("Negative") : document.write("Zero")
+
+var num1 = Number(prompt("Enter the number: "));
+var num2 = Number(prompt("Enter the number: "));
+
+num1>num2 ? document.write(num1 + " is larger than " + num2): document.write(num2 + " is larger than " + num1)
