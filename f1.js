@@ -1,6 +1,4 @@
-function sq(){
-    var num = 5;
-    var result = num ** 2;
+(function sum(num1, num2){
+    var result = num1 + num2;
     document.write("Result = "+ result);
-}
-sq();
+})(5,10);
