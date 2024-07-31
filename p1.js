@@ -120,7 +120,9 @@
 
 // num>0 ? document.write("Positive") : num<0 ?  document.write("Negative") : document.write("Zero")
 
-var num1 = Number(prompt("Enter the number: "));
-var num2 = Number(prompt("Enter the number: "));
+var num1 = Number(prompt("Enter the 1st number: "));
+var num2 = Number(prompt("Enter the 2nd number: "));
+var num3 = Number(prompt("Enter the 3rd number: "));
 
-num1>num2 ? document.write(num1 + " is larger than " + num2): document.write(num2 + " is larger than " + num1)
+// num1>num2 ? document.write(num1 + " is larger than " + num2): document.write(num2 + " is larger than " + num1)
+num1 > num2 && num1>num3 ? document.write(num1 + " = Num1 is the largest number") : num2>num1 && num2>num3 ? document.write(num2 + " = Num2 is the largest number") : document.write(num3 + " = Num3 is the largest number")
